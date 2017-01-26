@@ -1,0 +1,71 @@
+[RDF data]
+Botulinum Toxin Type B
+Resource URI: http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugs/DB00042
+Home | All drugs
+Property	Value
+drugbank:absorption	Though pharmacokinetic or ADME studies were not performed, Botulinum Toxin Type B is not expected to be present in the peripheral blood at measurable levels following IM injection at the recommended doses.
+drugbank:affectedOrganism	Humans and other mammals
+drugbank:brandName	Myobloc (Solstice Neurosciences)
+drugbank:brandName	Neurobloc (Solstice Neurosciences)
+drugbank:casRegistryNumber	<http://bio2rdf.org/cas:93384-44-2>
+drugbank:chemicalStructure	>Botulinum neurotoxin type B - Clostridium botulinum MPVTINNFNYNDPIDNNNIIMMEPPFARGTGRYYKAFKITDRIWIIPERYTFGYKPEDFN KSSGIFNRDVCEYYDPDYLNTNDKKNIFLQTMIKLFNRIKSKPLGEKLLEMIINGIPYLG DRRVPLEEFNTNIASVTVNKLISNPGEVERKKGIFANLIIFGPGPVLNENETIDIGIQNH FASREGFGGIMQMKFCPEYVSVFNNVQENKGASIFNRRGYFSDPALILMHELIHVLHGLY GIKVDDLPIVPNEKKFFMQSTDAIQAEELYTFGGQDPSIITPSTDKSIYDKVLQNFRGIV DRLNKVLVCISDPNININIYKNKFKDKYKFVEDSEGKYSIDVESFDKLYKSLMFGFTETN IAENYKIKTRASYFSDSLPPVKIKNLLDNEIYTIEEGFNISDKDMEKEYRGQNKAINKQA YEEISKEHLAVYKIQMCKSVKAPGICIDVDNEDLFFIADKNSFSDDLSKNERIEYNTQSN YIENDFPINELILDTDLISKIELPSENTESLTDFNVDVPVYEKQPAIKKIFTDENTIFQY LYSQTFPLDIRDISLTSSFDDALLFSNKVYSFFSMDYIKTANKVVEAGLFAGWVKQIVND FVIEANKSNTMDKIADISLIVPYIGLALNVGNETAKGNFENAFEIAGASILLEFIPELLI PVVGAFLLESYIDNKNKIIKTIDNALTKRNEKWSDMYGLIVAQWLSTVNTQFYTIKEGMY KALNYQAQALEEIIKYRYNIYSEKEKSNINIDFNDINSKLNEGINQAIDNINNFINGCSV SYLMKKMIPLAVEKLLDFDNTLKKNLLNYIDENKLYLIGSAEYEKSKVNKYLKTIMPFDL SIYTNDTILIEMFNKYNSEILNNIILNLRYKDNNLIDLSGYGAKVEVYDGVELNDKNQFK LTSSANSKIRVTQNQNIIFNSVFLDFSVSFWIRIPKYKNDGIQNYIHNEYTIINCMKNNS GWKISIRGNRIIWTLIDINGKTKSVFFEYNIREDISEYINRWFFVTITNNLNNAKIYING KLESNTDIKDIREVIANGEIIFKLDGDIDRTQFIWMKYFSIFNTELSQSNIEERYKIQSY SEYLKDFWGNPLMYNKEYYMFNAGNKNSYIKLKKDSPVGEILTRSKYNQNSKYINYRDLY IGEKFIIRRKSNSQSINDDIVRKEDYIYLDFFNLNQEWRVYTYKYFKKEEEKLFLAPISD SDEFYNTIQIKEYDEQPTYSCQLLFKKDEESTDEIGLIGIHRFYESGIVFEEYKDYFCIS KWYLKEVKRKPYNLKLGCNWQFIPKDEGWTE
+drugbank:contraindicationInsert	<http://129.128.185.122/drugbank2/drugs/DB00042/inserts/1666/full>
+drugbank:creationDate	2005-06-13 13:24:05 UTC
+drugbank:description	Neurotoxin produced by fermentation of clostridium botulinum type B. The protein exists in noncovalent association with hemagglutinin and nonhemagglutinin proteins as a neurotoxin complex. The neurotoxin complex is recovered from the fermentation process and purified through a series of precipitation and chromatography steps.
+drugbank:dosageForm	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/dosageforms/injectionSolutionIntramuscular>
+drugbank:dpdDrugIdNumber	00075108
+drugbank:drugCategory	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugcategory/antidystonicAgents>
+drugbank:drugIdNumberPage	<http://205.193.93.51/dpdonline/searchRequest.do?din=00075108>
+drugbank:drugType	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugtype/approved>
+drugbank:drugType	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugtype/biotech>
+drugbank:fdaLabelFiles	2004-03-01	/drugs/42/fda_labels/802
+drugbank:genbankId	M81186
+drugbank:genericName	Botulinum Toxin Type B
+drugbank:indication	For the treatment of patients with cervical dystonia to reduce the severity of abnormal head position and neck pain associated with cervical dystonia.
+drugbank:interactionInsert	<http://129.128.185.122/drugbank2/drugs/DB00042/inserts/2646/full>
+drugbank:keggDrugId	<http://bio2rdf.org/kegg:D02735>
+rdfs:label	Botulinum Toxin Type B
+drugbank:limsDrugId	42
+drugbank:massSpecFile	0
+drugbank:mechanismOfAction	Botulinum Toxin Type B binds to and cleaves the synaptic Vesicle Associated Membrane Protein (VAMP, also known as synaptobrevin) which is a component of the protein complex responsible for docking and fusion of the synaptic vesicle to the presynaptic membrane, a necessary step to neurotransmitter release.
+drugbank:molecularWeightAverage	150804.0
+foaf:page	<http://dbpedia.org/page/Botulinum_toxin>
+foaf:page	<http://en.wikipedia.org/wiki/Botulinum_toxin>
+foaf:page	<http://www.drugbank.ca/drugs/DB00042>
+drugbank:pharmacology	Botulinum Toxin Type B inhibits acetylcholine release at the neuromuscular junction via a three stage process: 1) Heavy Chain mediated neurospecific binding of the toxin, 2) internalization of the toxin by receptor-mediated endocytosis, and 3) ATP and pH dependent translocation of the Light Chain to the neuronal cytosol where it acts as a zinc-dependent endoprotease cleaving polypeptides essential for neurotransmitter release.
+drugbank:pharmgkbId	PA448660
+drugbank:primaryAccessionNo	DB00042
+drugbank:reference	
+drugbank:rxlistLink	<http://www.rxlist.com/cgi/generic/botulinumtoxin.htm>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/2228>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/2240>
+owl:sameAs	<http://dbpedia.org/resource/Botulinum_toxin>
+owl:sameAs	<http://www.dbpedia.org/resource/Botulinum_toxin>
+drugbank:secondaryAccessionNumber	biod00070
+drugbank:secondaryAccessionNumber	btd00070
+drugbank:state	Liquid
+drugbank:structure	0
+drugbank:swissprotId	<http://bio2rdf.org/uniprot:P10844>
+drugbank:swissprotName	BXB_CLOBO
+drugbank:swissprotPage	<http://www.uniprot.org/uniprot/P10844>
+drugbank:synonym	BTX-B
+drugbank:synonym	Botulinum neurotoxin type B precursor
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/3859>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/3860>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/3861>
+drugbank:toxicity	One unit of Botulinum Toxin Type B corresponds to the calculated median lethal intraperitoneal dose (LD50) in mice.
+rdf:type	drugbank:drugs
+rdf:type	vocabClass:Offer
+drugbank:updateDate	2008-02-11 14:55:51 UTC
+The server is configured to display only a limited number of values (limit per property bridge: 50).
+
+
+
+Metadata
+<http://wifo5-04.informatik.uni-mannheim.de/drugbank/data/drugs/DB00042>  
+dc:date	2016-07-06T23:13:42.058Z
+prv:containedBy	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/dataset>
+void:inDataset	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/dataset>
+rdf:type	prv:DataItem
+rdf:type	foaf:Document
+Generated by D2R Server

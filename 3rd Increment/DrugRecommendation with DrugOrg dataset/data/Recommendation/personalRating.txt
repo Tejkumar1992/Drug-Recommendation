@@ -1,0 +1,16 @@
+0::6::4::1400000000::chlorpheniramine
+0::20::5::1400000000::Promethazine DM
+0::29::4::1400000000::Paraplatin
+0::34::5::1400000000::Vincasar PFS
+0::60::4::1400000000::Namzaric
+0::64::3::1400000000::Aquavite E
+0::73::3::1400000000::Maxalt
+0::99::3::1400000000::almotriptan
+0::101::2::1400000000::metoclopramide
+0::158::1::1400000000::venlafaxine
+0::179::3::1400000000::Budeprion XL
+0::286::3::1400000000::Hetlioz
+0::299::3::1400000000::Mapap PM
+0::306::2::1400000000::Percogesic Extra Strength
+
+

@@ -1,0 +1,5 @@
+Confusion matrix:
+0.0  1.0  0.0  
+0.0  1.0  0.0  
+0.0  0.0  0.0  
+Accuracy: 0.25

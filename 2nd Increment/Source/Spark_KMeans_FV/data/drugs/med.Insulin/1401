@@ -1,0 +1,89 @@
+[RDF data]
+Insulin Lyspro recombinant
+Resource URI: http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugs/DB00046
+Home | All drugs
+Property	Value
+drugbank:affectedOrganism	Humans and other mammals
+drugbank:biotransformation	Insulin is predominantly cleared by metabolic degradation via a receptor-mediated process.
+drugbank:brandName	Humalog (Eli Lily)
+drugbank:brandName	Insulin Lispro (Eli Lily)
+drugbank:casRegistryNumber	<http://bio2rdf.org/cas:133107-64-9>
+drugbank:chemicalFormula	C257H387N65O76S6
+drugbank:chemicalIupacName	Human Insulin
+drugbank:chemicalStructure	>A chain GIVEQCCTSICSLYQLENYCN >B chain FVNQHLCGSHLVEALYLVCGERGFFYTKPT
+drugbank:creationDate	2005-06-13 13:24:05 UTC
+drugbank:description	Monomeric form of regular insulin hexamer. Absorbed more rapidly than regular insulin. Has a lysine28, proline29 substitution in the B chain
+drugbank:dosageForm	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/dosageforms/injectionSolutionSubcutaneous>
+drugbank:dpdDrugIdNumber	02241283
+drugbank:drugCategory	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugcategory/hypoglycemicAgents>
+drugbank:drugIdNumberPage	<http://205.193.93.51/dpdonline/searchRequest.do?din=02241283>
+drugbank:drugType	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugtype/approved>
+drugbank:drugType	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugtype/biotech>
+drugbank:experimentalLogpHydrophobicity	0.218
+drugbank:genericName	Insulin Lyspro recombinant
+drugbank:halfLife	30 hours (mammalian reticulocytes, in vitro).
+drugbank:indication	For treatment of diabetes (type I and II)
+rdfs:label	Insulin Lyspro recombinant
+drugbank:limsDrugId	46
+drugbank:massSpecFile	0
+drugbank:mechanismOfAction	Insulin binds to the insulin receptor (IR), a heterotetrameric protein consisting of two extracellular alpha units and two transmembrane beta units. The binding of insulin to the alpha subunit of IR stimulates the tyrosine kinase activity intrinsic to the beta subunit of the receptor. The bound receptor is able to autophosphorylate and phosphorylate numerous intracellular substrates such as insulin receptor substrates (IRS) proteins, Cbl, APS, Shc and Gab 1. These activated proteins, in turn, lead to the activation of downstream signaling molecules including PI3 kinase and Akt. Akt regulates the activity of glucose transporter 4 (GLUT4) and protein kinase C (PKC) which play a critical role in metabolism and catabolism.
+drugbank:meltingPoint	81 oC (Khachidze, D.G. et al., J. Biol. Phys. Chem. 1:64-67 (2001))
+drugbank:molecularWeightAverage	5808.0
+foaf:page	<http://dbpedia.org/page/Insulin_lispro>
+foaf:page	<http://en.wikipedia.org/wiki/Insulin_lispro>
+foaf:page	<http://www.drugbank.ca/drugs/DB00046>
+drugbank:pdbExperimentalId	1LPH
+drugbank:pharmacology	Used in the treatment of type I and type II diabetes. The primary activity of insulin is the regulation of glucose metabolism. In muscle and other tissues (except the brain), insulin causes rapid transport of glucose and amino acids intracellularly. It also promotes anabolism, and inhibits protein catabolism. In the liver, insulin promotes the uptake and storage of glucose in the form of glycogen, inhibits gluconeogenesis, and promotes the conversion of excess glucose into fat.
+drugbank:pharmgkbId	PA450001
+drugbank:pkaIsoelectricPoint	5.39
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/157>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1610>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2815>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/3420>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/3777>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/617>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/851>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/993>
+drugbank:primaryAccessionNo	DB00046
+drugbank:reference	
+drugbank:rxlistLink	<http://www.rxlist.com/cgi/generic/insulinlispro.htm>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/30442>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/36022>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/7428>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/7443>
+owl:sameAs	<http://dbpedia.org/resource/Insulin_lispro>
+owl:sameAs	<http://www.dbpedia.org/resource/Insulin_lispro>
+drugbank:secondaryAccessionNumber	biod00065
+drugbank:secondaryAccessionNumber	btd00065
+drugbank:state	Liquid
+drugbank:structure	0
+drugbank:synonym	Humalog
+drugbank:synonym	Insulin Lispro
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/1243>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/1244>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/1949>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/2009>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/2155>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/3844>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/3845>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/3846>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/3847>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/3848>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/3849>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/3850>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/958>
+rdf:type	drugbank:drugs
+rdf:type	vocabClass:Offer
+drugbank:updateDate	2007-10-28 11:25:49 UTC
+The server is configured to display only a limited number of values (limit per property bridge: 50).
+
+
+
+Metadata
+<http://wifo5-04.informatik.uni-mannheim.de/drugbank/data/drugs/DB00046>  
+dc:date	2016-07-06T23:13:37.018Z
+prv:containedBy	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/dataset>
+void:inDataset	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/dataset>
+rdf:type	prv:DataItem
+rdf:type	foaf:Document
+Generated by D2R Server

@@ -1,0 +1,90 @@
+[RDF data]
+Omalizumab
+Resource URI: http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugs/DB00043
+Home | All drugs
+Property	Value
+drugbank:affectedOrganism	Humans and other mammals
+drugbank:ahfsCode	48:92.00
+drugbank:atcCode	R03DX05
+drugbank:biotransformation	Most likely removed by opsonization via the reticuloendothelial system.
+drugbank:brandName	Xolair (Genentech Inc)
+drugbank:casRegistryNumber	<http://bio2rdf.org/cas:242138-07-4>
+drugbank:chemicalFormula	C6450H9916N1714O2023S38
+drugbank:chemicalIupacName	Humanized anti-IgE antibody
+drugbank:chemicalStructure	>Anti IgE antibody VH domain chain 1 EVQLVESGGGLVQPGGSLRLSCAVSGYSITSGYSWNWIRQAPGKGLEWVASITYDGSTNY ADSVKGRFTISRDDSKNTFYLQMNSLRAEDTAVYYCARGSHYFGHWHFAVWGQGTLVTVS SGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLY SLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKAEPKSCDKTHTCPPCPAPELLGGPSV FLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTY RVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSRDELTK NQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQG NVFSCSVMHEALHNHYTQKSLSLSPGK >Anti IgE antibody VH domain chain 2 EVQLVESGGGLVQPGGSLRLSCAVSGYSITSGYSWNWIRQAPGKGLEWVASITYDGSTNY ADSVKGRFTISRDDSKNTFYLQMNSLRAEDTAVYYCARGSHYFGHWHFAVWGQGTLVTVS SGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLY SLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKAEPKSCDKTHTCPPCPAPELLGGPSV FLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTY RVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSRDELTK NQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQG NVFSCSVMHEALHNHYTQKSLSLSPGK >Anti IgE antibody VL domain chain 1 DIQLTQSPSSLSASVGDRVTITCRASQSVDYDGDSYMNWYQQKPGKAPKLLIYAASYLES GVPSRFSGSGSGTDFTLTISSLQPEDFATYYCQQSHEDPYTFGQGTKVEIKRTVAAPSVF IFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLS STLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNR >Anti IgE antibody VL domain chain 2 DIQLTQSPSSLSASVGDRVTITCRASQSVDYDGDSYMNWYQQKPGKAPKLLIYAASYLES GVPSRFSGSGSGTDFTLTISSLQPEDFATYYCQQSHEDPYTFGQGTKVEIKRTVAAPSVF IFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLS STLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNR
+drugbank:contraindicationInsert	<http://129.128.185.122/drugbank2/drugs/DB00043/inserts/1172/full>
+drugbank:creationDate	2005-06-13 13:24:05 UTC
+drugbank:description	A recombinant DNA-derived humanized IgG1k monoclonal antibody that selectively binds to human immunoglobulin E (IgE). Xolair is produced by a Chinese hamster ovary cell suspension culture in a nutrient medium containing the antibiotic gentamicin.
+drugbank:dosageForm	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/dosageforms/powderForSolutionSubcutaneous>
+drugbank:dpdDrugIdNumber	02260565
+drugbank:drugCategory	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugcategory/anti-asthmaticAgents>
+drugbank:drugCategory	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugcategory/immunomodulatoryAgents>
+drugbank:drugIdNumberPage	<http://205.193.93.51/dpdonline/searchRequest.do?din=02260565>
+drugbank:drugType	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugtype/approved>
+drugbank:drugType	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugtype/biotech>
+drugbank:drugType	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugtype/investigational>
+drugbank:experimentalLogpHydrophobicity	-0.432
+drugbank:fdaLabelFiles	2004-03-01	/drugs/43/fda_labels/688
+drugbank:genbankId	J00228
+drugbank:genericName	Omalizumab
+drugbank:halfLife	26 days
+drugbank:indication	For treatment of asthma caused by allergies
+drugbank:interactionInsert	<http://129.128.185.122/drugbank2/drugs/DB00043/inserts/2179/full>
+rdfs:label	Omalizumab
+drugbank:limsDrugId	43
+drugbank:massSpecFile	0
+drugbank:mechanismOfAction	Xolair binds to IgE (a class of antibodies normally secreted in allergic responses), which prevents their binding to mast cells and basophils.
+drugbank:meltingPoint	61 oC (FAB fragment), 71 oC (whole mAb) - Vermeer, A.W.P. & Norde, W., Biophys. J. 78:394-404 (2000).
+drugbank:molecularWeightAverage	145058.2
+foaf:page	<http://dbpedia.org/page/Omalizumab>
+foaf:page	<http://en.wikipedia.org/wiki/Omalizumab>
+foaf:page	<http://www.drugbank.ca/drugs/DB00043>
+drugbank:pharmacology	Xolair inhibits the binding of IgE to the high-affinity IgE receptor (FceRI) on the surface of mast cells and basophils. Reduction in surface-bound IgE on FceRI-bearing cells limits the degree of release of mediators of the allergic response. Xolair is used to treat severe, persisten asthma.
+drugbank:pharmgkbId	PA10374
+drugbank:pkaIsoelectricPoint	7.03
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/116>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1497>
+drugbank:primaryAccessionNo	DB00043
+drugbank:reference	
+drugbank:rxlistLink	<http://www.rxlist.com/cgi/generic/xolair.htm>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/19204>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/21397>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/31350>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/35845>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/42358>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/43111>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/43549>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/49862>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/51495>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/51502>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/59871>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/59873>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/61568>
+owl:sameAs	<http://dbpedia.org/resource/Omalizumab>
+owl:sameAs	<http://www.dbpedia.org/resource/Omalizumab>
+drugbank:secondaryAccessionNumber	biod00081
+drugbank:secondaryAccessionNumber	btd00081
+drugbank:state	Liquid
+drugbank:structure	0
+drugbank:swissprotId	<http://bio2rdf.org/uniprot:P01857>
+drugbank:swissprotName	IGHG1_HUMAN
+drugbank:swissprotPage	<http://www.uniprot.org/uniprot/P01857>
+drugbank:synonym	Ig gamma-1 chain C region
+drugbank:synthesisReference	Sequence in Presta et al., J. of Immunol. 151, 2623 1993
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/18>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/3862>
+rdf:type	drugbank:drugs
+rdf:type	vocabClass:Offer
+drugbank:updateDate	2007-11-18 20:25:13 UTC
+The server is configured to display only a limited number of values (limit per property bridge: 50).
+
+
+
+Metadata
+<http://wifo5-04.informatik.uni-mannheim.de/drugbank/data/drugs/DB00043>  
+dc:date	2016-07-06T23:13:42.582Z
+prv:containedBy	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/dataset>
+void:inDataset	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/dataset>
+rdf:type	prv:DataItem
+rdf:type	foaf:Document
+Generated by D2R Server

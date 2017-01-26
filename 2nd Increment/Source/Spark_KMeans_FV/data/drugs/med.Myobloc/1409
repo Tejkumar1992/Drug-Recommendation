@@ -1,0 +1,83 @@
+[RDF data]
+Lutropin alfa
+Resource URI: http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugs/DB00044
+Home | All drugs
+Property	Value
+drugbank:affectedOrganism	Humans and other mammals
+drugbank:ahfsCode	68:18.00
+drugbank:atcCode	G03GA07
+drugbank:brandName	Luveris (Serono)
+drugbank:brandedDrug	<http://wifo5-04.informatik.uni-mannheim.de/dailymed/resource/drugs/2970>
+drugbank:casRegistryNumber	<http://bio2rdf.org/cas:152923-57-4>
+drugbank:chemicalFormula	C1014H1609N287O294S27
+drugbank:chemicalIupacName	Human luteinizing hormone
+drugbank:chemicalStructure	>AlphaChain APDVQDCPECTLQENPFFSQPGAPILQCMGCCFSRAYPTPLRSKKTMLVQKNVTSESTCC VAKSYNRVTVMGGFKVENHTACHCSTCYYHKS >BetaChain (LH) SREPLRPWCHPINAILAVEKEGCPVCITVNTTICAGYCPTMMRVLQAVLPPLPQVVCTYR DVRFESIRLPGCPRGVDPVVSFPVALSCRCGPCRRSTSDCGGPKDHPLTCDHPQLSGLLF L
+drugbank:creationDate	2005-06-13 13:24:05 UTC
+drugbank:description	Recombinant human luteinizing hormone produced in yeast with 2 subunits, alpha = 92 residues, beta = 121 residues
+drugbank:dosageForm	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/dosageforms/powderForSolutionSubcutaneous>
+drugbank:dpdDrugIdNumber	02269066
+drugbank:drugCategory	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugcategory/fertilityAgents>
+drugbank:drugIdNumberPage	<http://205.193.93.51/dpdonline/searchRequest.do?din=02269066>
+drugbank:drugType	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugtype/approved>
+drugbank:drugType	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugtype/biotech>
+drugbank:experimentalLogpHydrophobicity	-0.063
+drugbank:fdaLabelFiles	2004-10-01	/drugs/44/fda_labels/1013
+drugbank:genbankId	X00264
+drugbank:genericName	Lutropin alfa
+drugbank:halfLife	4.4 hours (mammalian reticulocytes, in vitro)
+drugbank:indication	For treatment of female infertility
+rdfs:label	Lutropin alfa
+drugbank:limsDrugId	44
+drugbank:massSpecFile	0
+drugbank:mechanismOfAction	Binds to the luteinizing hormone receptor which then activates adenylate cylcase through G protein mediation. Adenylate cyclase then activates many other pathways leading to steroid hormone production and other follicle maturation processes.
+drugbank:meltingPoint	55 oC (Forastieri, H., Ingham, K.C. J. Biol. Chem. 257:7976-7981 (1982))
+drugbank:molecularWeightAverage	23390.3
+foaf:page	<http://dbpedia.org/page/Lutropin_alfa>
+foaf:page	<http://en.wikipedia.org/wiki/Lutropin_alfa>
+foaf:page	<http://www.drugbank.ca/drugs/DB00044>
+drugbank:pharmacology	Used to facilitate female conception, lutropin alfa performs the same actions as luteinizing hormone (LH), which is normally produced in the pituitary gland. Lutropin is usually given in combination with follitropin alfa. In females, a LH surge about halfway through the menstrual cycle triggers the onset of ovulation. LH also induces the ovulated follicle to become a corpus luteum, which then secretes progesterone.
+drugbank:pharmgkbId	PA10306
+drugbank:pkaIsoelectricPoint	8.44
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2738>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2957>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/3159>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/3636>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/3675>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/580>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/676>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/762>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/948>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/966>
+drugbank:primaryAccessionNo	DB00044
+drugbank:reference	
+owl:sameAs	<http://data.linkedct.org/resource/intervention/44478>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/44528>
+owl:sameAs	<http://dbpedia.org/resource/Lutropin_alfa>
+drugbank:secondaryAccessionNumber	biod00056
+drugbank:secondaryAccessionNumber	btd00056
+drugbank:state	Liquid
+drugbank:structure	0
+drugbank:swissprotId	<http://bio2rdf.org/uniprot:P01229>
+drugbank:swissprotName	LSHB_HUMAN
+drugbank:swissprotPage	<http://www.uniprot.org/uniprot/P01229>
+drugbank:synonym	LH-B
+drugbank:synonym	LSH- beta
+drugbank:synonym	LSH-B
+drugbank:synonym	Luteinizing hormone beta subunit
+drugbank:synonym	Lutropin beta chain precursor
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/148>
+rdf:type	drugbank:drugs
+rdf:type	vocabClass:Offer
+drugbank:updateDate	2007-10-22 02:38:44 UTC
+The server is configured to display only a limited number of values (limit per property bridge: 50).
+
+
+
+Metadata
+<http://wifo5-04.informatik.uni-mannheim.de/drugbank/data/drugs/DB00044>  
+dc:date	2016-07-06T23:13:43.119Z
+prv:containedBy	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/dataset>
+void:inDataset	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/dataset>
+rdf:type	prv:DataItem
+rdf:type	foaf:Document
+Generated by D2R Server

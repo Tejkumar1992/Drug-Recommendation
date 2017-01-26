@@ -1,0 +1,4439 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:ns="http://silab.hevs.ch/ontology/project/swisselectric/0.1.1/ns.owl#"
+     xmlns:movieontology2="http://www.movieontology.org/2009/11/09/movieontology.owl#"
+     xmlns:movieontology="http://www.movieontology.org/2009/10/01/movieontology.owl#"
+     xmlns:for="http://ldp.com/spot/category/for/"
+     xmlns:xo="http://rhizomik.net/redefer/xsl/xsd2owl-functions.xsl"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:lecturer="http://www.example.org/lecturer/"
+     xmlns:adms="http://www.w3.org/ns/adms#"
+     xmlns:schema="http://www.w3.org/2001/XMLSchema/"
+     xmlns:page="http://dbpedia.org/page/"
+     xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+     xmlns:vin="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#"
+     xmlns:interop="urn:ns1"
+     xmlns:quantity="http://purl.oclc.org/NET/ssnx/qu/quantity#"
+     xmlns:place="http://purl.org/ontology/places#"
+     xmlns:sdmx-dimension="http://purl.org/linked-data/sdmx/2009/dimension#"
+     xmlns:sdmx-measure="http://purl.org/linked-data/sdmx/2009/measure#"
+     xmlns:aaa="http://www.omada.gr/obo/aaa#"
+     xmlns:rcra-report-type="http://opendata.epa.gov/rcra/report-type/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:submodule="http://www.example.org/submodule/"
+     xmlns:Ontology1466434524700="http://www.semanticweb.org/ontologies/2016/5/Ontology1466434524700.owl#"
+     xmlns:daml="http://www.daml.org/2001/03/daml+oil#"
+     xmlns:rov="http://www.w3.org/TR/vocab-regorg/"
+     xmlns:gn="http://www.geonames.org/ontology#"
+     xmlns:category="http://ldp.com/spot/category/"
+     xmlns:prefix="http://purl.oclc.org/NET/ssnx/qu/prefix#"
+     xmlns:ifcowl="http://www.buildingsmart-tech.org/ifcOWL/IFC2X3_TC1#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:sdmx-metadata="http://purl.org/linked-data/sdmx/2009/metadata#"
+     xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+     xmlns:gr="http://purl.org/goodrelations/v1#"
+     xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+     xmlns:lemon="http://lemon-model.net/lemon#"
+     xmlns:rdaa="http://rdaregistry.info/Elements/a/"
+     xmlns:res="http://www.slovpedia.com/knowledge/spec/1.0/resource.owl#"
+     xmlns:SMA_CP2="http://www.semanticweb.org/ontologies/2013/SMA_CP#3"
+     xmlns:interval="http://reference.data.gov.uk/def/intervals/"
+     xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:org="http://www.w3.org/ns/org#"
+     xmlns:dbnary="http://kaiko.getalp.org/dbnary#"
+     xmlns:express="http://purl.org/voc/express#"
+     xmlns:LightingF="http://www.semanticweb.org/ontologies/2013/SMA_CP#LightingF&amp;"
+     xmlns:CameraOperationF="http://www.semanticweb.org/ontologies/2013/SMA_CP#CameraOperationF&amp;"
+     xmlns:rcra-activity-type="http://opendata.epa.gov/rcra/activity-type/"
+     xmlns:domain="http://www.utc.fr/hds/ici/humans/domain#"
+     xmlns:api="http://www.wso2api.org/api/"
+     xmlns:VisualizationF="http://www.semanticweb.org/ontologies/2013/SMA_CP#VisualizationF&amp;"
+     xmlns:eng="http://kaiko.getalp.org/dbnary/eng/"
+     xmlns:adolena="http://ksg.meraka.co.za/adolena.owl#"
+     xmlns:admingeo="http://data.ordnancesurvey.co.uk/ontology/admingeo/"
+     xmlns:ex="http://example.org/stuff/1.0/"
+     xmlns:module="http://www.example.org/module/"
+     xmlns:ex-geo="http://example.org/geo#"
+     xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+     xmlns:a="http://www.example.com/#"
+     xmlns:void="http://rdfs.org/ns/void#"
+     xmlns:nuts="http://ec.europa.eu/eurostat/ramon/rdfdata/nuts/"
+     xmlns:spot_name="http://ldp.com/spot/spot_name/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:voaf="http://purl.org/vocommons/voag#"
+     xmlns:institute="http://www.example.org/institute/"
+     xmlns:eg="http://example.org/ns#"
+     xmlns:s="https://univie.ac.at/~a1507714/schema/"
+     xmlns:obk="http://purl.org/opdm/book#"
+     xmlns:q="http://www.workingontologist.org/Examples/Chapter10/questionnaire.owl#"
+     xmlns:opdm="http://purl.org/opdm/utility#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:ub="http://swat.cse.lehigh.edu/onto/univ-bench.owl#"
+     xmlns:NAP="file://null/home/aurona/0AlleWerk/Navorsing/Ontologies/NAP/NAP#"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:lecture="http://www.example.org/lecture/"
+     xmlns:geosim="http://minsky.gsi.dit.upm.es/~gpoveda/geosim/0.1.3/ns.owl#"
+     xmlns:snap="http://www.ifomis.org/bfo/1.1/snap#"
+     xmlns:ContentCreation="http://www.semanticweb.org/ontologies/2013/SMA_CP#ContentCreation&amp;"
+     xmlns:study="http://www.example.org/study/"
+     xmlns:dcam="http://purl.org/dc/dcam/"
+     xmlns:type="http://ldp.com/spot/category/type/"
+     xmlns:bfo="http://www.ifomis.org/bfo/1.1#"
+     xmlns:obs="http://localhost/SensorSchema/ontology#"
+     xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"
+     xmlns:province="http://www.province.com/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:ann="http://www.slovpedia.com/knowledge/nlp/1.0/annotation.owl#"
+     xmlns:Editing="http://www.semanticweb.org/ontologies/2013/SMA_CP#Editing&amp;"
+     xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:Univer="http://www.Creat-Doc/Onto/Univer.owl"
+     xmlns:eeo="http://localhost/ontologies/eeo/eeo.owl#"
+     xmlns:odp="http://data.gov.sk/def/ontology/odp/"
+     xmlns:j.0="http://example.org/ontology#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#"
+     xmlns:ontology="http://dbpedia.org/ontology/"
+     xmlns:rcra-accessibility="http://opendata.epa.gov/rcra/accessibility/"
+     xmlns:rcra="http://opendata.epa.gov/rcra/schema/"
+     xmlns:exp="http://www.pr-owl.org/examples/pr-owl2/ProcurementFraud/ProcurementFraud.owl#"
+     xmlns:signavio="http://www.signavio.com"
+     xmlns:food="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#"
+     xmlns:hl7="http://www.intel.com/dt/hl7v26"
+     xmlns:pizza="http://www.co-ode.org/ontologies/pizza/pizza.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:sdmx-subject="http://purl.org/linked-data/sdmx/2009/subject#"
+     xmlns:cao="http://www.biocenit.cat/ontologies/city_anatomy/CA.owl#"
+     xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+     xmlns:var="urn:swrl#"
+     xmlns:fra="http://kaiko.getalp.org/dbnary/fra/"
+     xmlns:geosim2="http://minsky.gsi.dit.upm.es/~gpoveda/geosim/0.1.2/geosim.owl#"
+     xmlns:sdmx-attribute="http://purl.org/linked-data/sdmx/2009/attribute#"
+     xmlns:www="http://www.movieontology.org/2009/11/09/"
+     xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC"
+     xmlns:sdmx-concept="http://purl.org/linked-data/sdmx/2009/concept#"
+     xmlns:otherOnt="http://example.org/otherOntologies/families/"
+     xmlns:inst="http://linkedbuildingdata.net/ifc/resources20160709_181019/"
+     xmlns:sdmx-code="http://purl.org/linked-data/sdmx/2009/code#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI"
+     xmlns:dim="http://purl.oclc.org/NET/ssnx/qu/dim#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:dires="http://www.disaster20.eu/dires#"
+     xmlns:SMA_CP="http://www.semanticweb.org/ontologies/2013/SMA_CP#"
+     xmlns:qu="http://purl.oclc.org/NET/ssnx/qu/qu#"
+     xmlns:TexturePainting="http://www.semanticweb.org/ontologies/2013/SMA_CP#TexturePainting&amp;"
+     xmlns:Film="http://www.semanticweb.org/ontologies/2013/SMA_CP#Film&amp;"
+     xmlns:mfg="http://www.workingontologist.org/Examples/Chapter3/Product.owl#"
+     xmlns:zip="http://3roundstones.com/ZipCodes/"
+     xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+     xmlns:list="http://www.co-ode.org/ontologies/list.owl#"
+     xmlns:BusinessAnalysisEssentials="http://www.udemy.com/BusinessAnalysisEssentials.owl#"
+     xmlns:game="http://www.semanticweb.org/ontologies/game.owl#"
+     xmlns:qb="http://purl.org/linked-data/cube#"
+     xmlns:in="http://www.example.com/in"
+     xmlns:locn="http://www.w3.org/ns/locn#"
+     xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+     xmlns:appointment="http://www.example.org/appointment/"
+     xmlns:ns2="eeo:#"
+     xmlns:cse="https://94d435b2.ngrok.io/ontologies/cse#"
+     xmlns:ns1="eeo:"
+     xmlns:unit="http://purl.oclc.org/NET/ssnx/qu/unit#"
+     xmlns:ns0="http://heraldo.es/ontology#"
+     xmlns:frs="http://opendata.epa.gov/frs/schema#"
+     xmlns:core="http://purl.obolibrary.org/obo/uberon/core#"
+     xmlns:rcra-land-type="http://opendata.epa.gov/rcra/land-type/"
+     xmlns:group="http://ldp.com/spot/category/group/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:user="http://ldp.com/data/user/"
+     xmlns:qu-rec20="http://purl.oclc.org/NET/ssnx/qu/qu-rec20#">
+    <Ontology rdf:about="https://www.kdm.com/OWL/drugs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#hasDescription -->
+
+    <ObjectProperty rdf:about="https://www.kdm.com/OWL/drugs#hasDescription">
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#Cancer"/>
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#Cold"/>
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#hasGenre -->
+
+    <ObjectProperty rdf:about="https://www.kdm.com/OWL/drugs#hasGenre">
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#Cancer"/>
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#Depression"/>
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#Insomnia"/>
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#Migraine"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#Nytol_2"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#Oncovin_10"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#Sumavel_DosePro_4"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#Symbyax_10"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#clonazepamOFF_LABEL_3"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#hasID -->
+
+    <ObjectProperty rdf:about="https://www.kdm.com/OWL/drugs#hasID">
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#Nytol_2"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#Oncovin_10"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#Sumavel_DosePro_4"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#Symbyax_10"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#clonazepamOFF_LABEL_3"/>
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#:1036"/>
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#:2825"/>
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#:2984"/>
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#:572"/>
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#:853"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#hasRecommendedGenre -->
+
+    <ObjectProperty rdf:about="https://www.kdm.com/OWL/drugs#hasRecommendedGenre">
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#Cancer"/>
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#Depression"/>
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#Insomnia"/>
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#Migraine"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#User_0"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#hasRecommendedMovie -->
+
+    <ObjectProperty rdf:about="https://www.kdm.com/OWL/drugs#hasRecommendedMovie">
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#Nytol_2"/>
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#Oncovin_10"/>
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#Sumavel_DosePro_4"/>
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#Symbyax_10"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#User_0"/>
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#clonazepamOFF_LABEL_3"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#hasTopic -->
+
+    <ObjectProperty rdf:about="https://www.kdm.com/OWL/drugs#hasTopic">
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#Topic1"/>
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#Topic2"/>
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/drugs#Topic3"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#ability"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#body"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#cancer"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#cause"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#cell"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#change"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#characterize"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#darken"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#death"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#destroy"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#development"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#divide"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#exist"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#heal"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#improve"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#improvement"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#include"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#infiltrate"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#lead"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#mole"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#normal"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#persistent"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#rate"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#redness"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#screening"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#sign"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#skin"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#sore"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#spread"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#states"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#survival"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#symptom"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#t"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#thanks"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#tissue"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#treatment"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#unexplained"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#win"/>
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/drugs#yellowing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Cancer -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#Cancer"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Cancer_Description -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#Cancer_Description">
+        <rdfs:subClassOf rdf:resource="https://www.kdm.com/OWL/drugs#Description"/>
+    </Class>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Cold -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#Cold"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Cold_Description -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#Cold_Description">
+        <rdfs:subClassOf rdf:resource="https://www.kdm.com/OWL/drugs#Description"/>
+    </Class>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Depression -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#Depression"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Description -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#Description"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Genre -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#Genre"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Insomnia -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#Insomnia"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Migraine -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#Migraine"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Movie -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#Movie"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#MovieID -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#MovieID"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Nytol_2 -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#Nytol_2"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Oncovin_10 -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#Oncovin_10"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Sumavel_DosePro_4 -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#Sumavel_DosePro_4"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Symbyax_10 -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#Symbyax_10"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Topic -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#Topic"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Topic1 -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#Topic1"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Topic2 -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#Topic2"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Topic3 -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#Topic3"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#User -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#User"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#User_0 -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#User_0"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#ability -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#ability"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#body -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#body"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#cancer -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#cancer"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#cause -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#cause"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#cell -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#cell"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#change -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#change"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#characterize -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#characterize"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#clonazepamOFF_LABEL_3 -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#clonazepamOFF_LABEL_3"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#darken -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#darken"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#death -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#death"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#destroy -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#destroy"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#development -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#development"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#divide -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#divide"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#exist -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#exist"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#heal -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#heal"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#improve -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#improve"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#improvement -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#improvement"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#include -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#include"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#infiltrate -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#infiltrate"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#lead -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#lead"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#mole -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#mole"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#normal -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#normal"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#persistent -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#persistent"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#rate -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#rate"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#redness -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#redness"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#screening -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#screening"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#sign -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#sign"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#skin -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#skin"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#sore -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#sore"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#spread -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#spread"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#states -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#states"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#survival -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#survival"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#symptom -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#symptom"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#t -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#t"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#thanks -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#thanks"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#tissue -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#tissue"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#treatment -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#treatment"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#unexplained -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#unexplained"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#win -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#win"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#yellowing -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#yellowing"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#:1036 -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#:1036"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#:2825 -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#:2825"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#:2984 -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#:2984"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#:572 -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#:572"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#:853 -->
+
+    <Class rdf:about="https://www.kdm.com/OWL/drugs#:853"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#American -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#American">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Cancer -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#Cancer">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Genre"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Congestion -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#Congestion">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Cough -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#Cough">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Depression -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#Depression">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Genre"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Hoarseness -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#Hoarseness">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Insomnia -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#Insomnia">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Genre"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#MRI -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#MRI">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Migraine -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#Migraine">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Genre"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#New -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#New">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Nytol_2 -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#Nytol_2">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Movie"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Oncovin_10 -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#Oncovin_10">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Movie"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#PET -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#PET">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Runny -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#Runny">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Slight -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#Slight">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#States -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#States">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Sumavel_DosePro_4 -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#Sumavel_DosePro_4">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Movie"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Symbyax_10 -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#Symbyax_10">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Movie"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Topic1 -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#Topic1">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Topic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Topic2 -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#Topic2">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Topic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#Topic3 -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#Topic3">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Topic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#United -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#United">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#User_0 -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#User_0">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#User"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#a -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#a">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#abdomen -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#abdomen">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#ability -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#ability">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#abnormally -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#abnormally">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#about -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#about">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#absence -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#absence">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#ache -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#ache">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#acute -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#acute">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#adenovirus -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#adenovirus">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#adult -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#adult">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#affect -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#affect">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#after -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#after">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#age -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#age">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#aggressive -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#aggressive">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#air -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#air">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#airplane -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#airplane">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#all -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#all">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#almost -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#almost">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#also -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#also">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#although -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#although">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#always -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#always">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#and -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#and">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#annually -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#annually">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#any -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#any">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#appear -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#appear">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#appetite -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#appetite">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#aren -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#aren">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#around -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#around">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#as -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#as">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#ask -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#ask">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#asthma -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#asthma">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#at -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#at">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#attack -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#attack">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#attention -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#attention">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#average -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#average">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#away -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#away">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#bacterial -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#bacterial">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#bacterium -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#bacterium">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#be -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#be">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#because -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#because">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#become -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#become">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#behind -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#behind">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#benign -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#benign">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#biopsy -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#biopsy">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#blood -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#blood">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#body -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#body">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#both -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#both">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#break -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#break">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#breast -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#breast">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#breath -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#breath">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#bronchiolitis -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#bronchiolitis">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#but -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#but">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#by -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#by">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#c -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#c">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#call -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#call">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#can -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#can">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#cancer -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#cancer">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#cancerous -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#cancerous">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#care -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#care">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#case -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#case">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#catch -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#catch">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#cause -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#cause">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#cell -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#cell">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#chance -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#chance">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#change -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#change">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#characterize -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#characterize">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#chemical -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#chemical">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#chest -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#chest">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#child -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#child">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#chronic -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#chronic">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#clonazepamOFF_LABEL_3 -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#clonazepamOFF_LABEL_3">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Movie"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#cold -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#cold">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#color -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#color">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#common -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#common">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#complication -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#complication">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#condition -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#condition">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#confirm -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#confirm">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#congestion -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#congestion">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#contact -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#contact">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#contaminate -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#contaminate">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#control -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#control">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#coronavirus -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#coronavirus">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#cough -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#cough">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#course -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#course">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#croup -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#croup">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#ct -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#ct">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#culprit -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#culprit">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#darken -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#darken">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#day -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#day">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#death -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#death">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#debilitate -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#debilitate">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#decrease -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#decrease">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#depend -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#depend">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#destroy -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#destroy">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#develop -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#develop">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#development -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#development">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#diagnose -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#diagnose">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#diagnosis -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#diagnosis">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#diagnostic -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#diagnostic">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#discharge -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#discharge">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#disease -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#disease">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#distinct -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#distinct">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#divide -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#divide">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#doctor -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#doctor">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#doesn -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#doesn">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#don -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#don">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#droplet -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#droplet">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#drowsiness -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#drowsiness">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#ear -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#ear">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#earach -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#earach">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#eardrum -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#eardrum">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#early -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#early">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#easily -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#easily">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#either -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#either">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#enter -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#enter">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#especially -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#especially">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#evaluation -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#evaluation">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#every -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#every">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#evidence -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#evidence">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#examination -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#examination">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#example -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#example">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#exclude -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#exclude">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#exist -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#exist">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#expect -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#expect">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#expectancy -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#expectancy">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#expose -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#expose">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#exposure -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#exposure">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#extent -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#extent">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#extreme -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#extreme">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#eye -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#eye">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#f -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#f">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#factor -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#factor">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#fail -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#fail">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#fall -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#fall">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#family -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#family">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#fatigue -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#fatigue">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#feel -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#feel">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#fever -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#fever">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#few -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#few">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#first -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#first">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#five -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#five">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#follow -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#follow">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#for -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#for">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#form -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#form">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#free -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#free">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#from -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#from">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#fussiness -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#fussiness">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#general -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#general">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#generally -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#generally">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#get -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#get">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#go -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#go">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#grade -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#grade">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#greater -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#greater">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#greatest -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#greatest">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#green -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#green">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#group -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#group">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#grow -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#grow">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#guide -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#guide">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#hand -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#hand">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#harmless -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#harmless">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#have -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#have">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#he -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#he">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#headache -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#headache">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#heal -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#heal">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#health -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#health">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#healthy -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#healthy">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#high -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#high">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#history -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#history">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#hour -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#hour">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#human -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#human">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#identify -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#identify">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#if -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#if">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#illness -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#illness">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#immune -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#immune">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#important -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#important">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#improve -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#improve">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#improvement -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#improvement">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#in -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#in">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#include -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#include">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#increase -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#increase">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#indication -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#indication">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#infection -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#infection">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#infectious -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#infectious">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#infiltrate -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#infiltrate">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#inflammation -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#inflammation">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#information -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#information">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#initial -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#initial">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#into -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#into">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#isn -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#isn">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#it -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#it">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#its -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#its">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#lack -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#lack">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#large -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#large">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#last -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#last">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#lead -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#lead">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#least -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#least">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#leukemia -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#leukemia">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#life -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#life">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#likely -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#likely">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#localized -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#localized">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#location -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#location">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#longer -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#longer">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#loss -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#loss">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#low -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#low">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#lump -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#lump">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#lung -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#lung">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#make -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#make">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#malaise -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#malaise">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#malignant -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#malignant">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#many -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#many">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#marked -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#marked">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#mass -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#mass">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#may -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#may">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#media -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#media">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#medical -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#medical">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#metastase -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#metastase">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#metastasis -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#metastasis">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#might -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#might">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#mild -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#mild">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#million -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#million">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#miss -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#miss">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#mole -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#mole">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#more -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#more">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#most -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#most">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#mouth -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#mouth">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#multiply -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#multiply">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#name -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#name">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#nearly -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#nearly">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#necessary -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#necessary">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#need -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#need">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#neurological -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#neurological">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#new -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#new">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#newborn -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#newborn">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#no -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#no">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#non -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#non">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#normal -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#normal">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#nose -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#nose">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#not -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#not">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#number -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#number">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#object -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#object">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#occur -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#occur">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#of -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#of">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#off -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#off">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#often -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#often">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#on -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#on">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#one -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#one">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#or -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#or">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#order -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#order">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#original -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#original">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#other -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#other">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#otherwise -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#otherwise">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#otitis -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#otitis">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#out -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#out">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#overview -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#overview">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#pain -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#pain">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#part -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#part">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#patient -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#patient">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#pelvis -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#pelvis">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#people -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#people">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#per -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#per">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#perform -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#perform">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#period -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#period">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#persistent -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#persistent">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#person -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#person">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#pharyngitis -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#pharyngitis">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#phase -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#phase">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#physical -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#physical">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#pneumonia -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#pneumonia">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#possible -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#possible">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#process -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#process">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#produce -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#produce">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#prognosis -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#prognosis">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#prostate -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#prostate">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#provide -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#provide">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#provider -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#provider">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#rainy -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#rainy">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#rare -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#rare">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#rate -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#rate">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#ray -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#ray">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#recognize -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#recognize">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#recover -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#recover">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#redness -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#redness">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#relatively -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#relatively">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#release -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#release">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#resolve -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#resolve">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#respiratory -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#respiratory">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#result -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#result">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#return -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#return">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#review -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#review">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#rhinitis -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#rhinitis">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#rhinovirus -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#rhinovirus">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#right -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#right">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#rise -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#rise">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#risk -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#risk">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#run -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#run">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#runny -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#runny">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#scan -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#scan">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#school -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#school">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#screening -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#screening">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#secondary -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#secondary">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#see -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#see">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#seek -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#seek">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#setting -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#setting">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#settle -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#settle">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#several -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#several">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#severe -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#severe">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#share -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#share">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#she -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#she">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#shortness -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#shortness">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#should -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#should">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#sick -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#sick">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#sign -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#sign">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#significant -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#significant">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#since -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#since">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#single -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#single">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#sinus -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#sinus">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#sinusitis -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#sinusitis">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#six -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#six">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#size -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#size">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#skin -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#skin">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#small -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#small">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#smoke -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#smoke">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#smoking -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#smoking">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#sneeze -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#sneeze">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#so -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#so">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#some -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#some">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#someone -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#someone">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#something -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#something">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#sometimes -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#sometimes">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#sore -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#sore">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#space -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#space">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#specific -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#specific">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#spend -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#spend">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#spot -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#spot">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#spread -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#spread">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#spreading -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#spreading">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#spring -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#spring">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#states -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#states">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#strep -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#strep">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#streptococcal -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#streptococcal">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#stuffy -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#stuffy">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#substance -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#substance">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#such -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#such">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#suggest -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#suggest">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#survival -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#survival">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#susceptible -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#susceptible">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#suspect -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#suspect">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#symptom -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#symptom">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#syncytial -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#syncytial">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#system -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#system">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#t -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#t">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#talk -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#talk">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#telephone -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#telephone">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#tend -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#tend">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#test -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#test">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#than -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#than">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#thanks -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#thanks">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#that -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#that">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#the -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#the">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#therapy -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#therapy">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#there -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#there">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#these -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#these">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#they -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#they">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#thicker -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#thicker">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#this -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#this">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#thorough -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#thorough">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#those -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#those">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#threaten -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#threaten">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#three -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#three">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#throat -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#throat">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#through -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#through">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#time -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#time">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#tissue -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#tissue">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#to -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#to">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#touch -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#touch">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#towel -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#towel">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#toy -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#toy">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#tract -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#tract">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#travel -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#travel">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#treat -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#treat">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#treatment -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#treatment">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#trigger -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#trigger">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#tumor -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#tumor">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#two -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#two">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#type -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#type">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#typical -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#typical">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#unexplained -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#unexplained">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#unrelated -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#unrelated">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#unusual -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#unusual">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#unwell -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#unwell">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#up -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#up">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#upper -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#upper">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#usually -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#usually">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#utensil -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#utensil">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#vaccine -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#vaccine">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#vary -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#vary">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#viral -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#viral">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#virus -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#virus">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#way -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#way">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#weaken -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#weaken">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#weakness -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#weakness">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#weather -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#weather">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#week -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#week">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#weight -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#weight">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#wheeze -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#wheeze">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#wheezing -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#wheezing">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#when -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#when">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#where -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#where">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#which -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#which">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#who -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#who">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#widely -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#widely">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#widespread -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#widespread">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#will -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#will">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#win -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#win">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#winter -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#winter">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#with -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#with">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#within -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#within">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#without -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#without">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#work -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#work">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#worsen -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#worsen">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#x -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#x">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#year -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#year">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#yellow -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#yellow">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#yellowing -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#yellowing">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#you -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#you">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cancer_Description"/>
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#younger -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#younger">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#Cold_Description"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#1036 -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#1036">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#MovieID"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#2825 -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#2825">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#MovieID"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#2984 -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#2984">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#MovieID"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#572 -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#572">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#MovieID"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/drugs#853 -->
+
+    <NamedIndividual rdf:about="https://www.kdm.com/OWL/drugs#853">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/drugs#MovieID"/>
+    </NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://www.kdm.com/OWL/drugs#Genre"/>
+            <rdf:Description rdf:about="https://www.kdm.com/OWL/drugs#Movie"/>
+            <rdf:Description rdf:about="https://www.kdm.com/OWL/drugs#MovieID"/>
+        </members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.5-SNAPSHOT) http://owlapi.sourceforge.net -->

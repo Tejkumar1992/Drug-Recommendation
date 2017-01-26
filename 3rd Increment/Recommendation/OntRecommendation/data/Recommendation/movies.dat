@@ -1,0 +1,310 @@
+1::Benadryl::Cold
+2::diphenhydramine::Cold
+3::chlorpheniramine::Cold
+4::Tussionex Pennkinetic::Cold
+5::Acetaminophen::Cold
+6::chlorpheniramine::Cold
+7::phenylephrine::Cold
+8::Tylenol Cold::Cold
+9::Banophen::Cold
+10::ChlorTrimeton::Cold
+11::Coricidin HBP Maximum Strength Flu::Cold
+12::TussiCaps::Cold
+13::Tylenol Cold MultiSymptom::Cold
+14::Sudafed PE Sinus Allergy::Cold
+15::pseudoephedrine triprolidine::Cold
+16::Sudafed PE Cold Cough::Cold
+17::Vicks Nyquil D Cold and Flu Nighttime Relief::Cold
+18::Coricidin HBP Cold Flu::Cold
+19::Vicks Dayquil Cold Flu Relief::Cold
+20::Promethazine DM::Cold
+21::carboplatin::Cancer
+22::Adriamycin::Cancer
+23::Cytoxan::Cancer
+24::Adrucil::Cancer
+25::fluorouracil::Cancer
+26::cyclophosphamide::Cancer
+27::doxorubicin::Cancer
+28::etoposide::Cancer
+29::Paraplatin::Cancer
+30::Cosmegen::Cancer
+31::Ethyol::Cancer
+32::Cytoxan Lyophilized::Cancer
+33::Leukeran::Cancer
+34::Vincasar PFS::Cancer
+35::Oncovin::Cancer
+36::Toposar::Cancer
+37::vincristine::Cancer
+38::Etopophos::Cancer
+39::Fludara::Cancer
+40::Neosar::Cancer
+41::amifostine::Cancer
+42::chlorambucil::Cancer
+43::Hycamtin::Cancer
+44::Ifex::Cancer
+45::Mustargen::Cancer
+46::Aricept::Alzheimer
+47::Namenda::Alzheimer
+48::donepezil::Alzheimer
+49::Exelon::Alzheimer
+50::Aricept ODT::Alzheimer
+51::memantine::Alzheimer
+52::Namenda XR::Alzheimer
+53::Razadyne ER::Alzheimer
+54::galantamine::Alzheimer
+55::Razadyne::Alzheimer
+56::rivastigmine::Alzheimer
+57::Alpha E::Alzheimer
+58::vitamin e::Alzheimer
+59::Hydergine::Alzheimer
+60::Namzaric::Alzheimer
+61::Aqua E::Alzheimer
+62::Aqua Gem E::Alzheimer
+63::Aquasol E::Alzheimer
+64::Aquavite E::Alzheimer
+65::Nutr E Sol::Alzheimer
+66::donepezil memantine::Alzheimer
+67::E 400 Clear::Alzheimer
+68::E 600::Alzheimer
+69::E Gems::Alzheimer
+70::ergoloid mesylates::Alzheimer
+71::sumatriptan::Migraine
+72::Imitrex::Migraine
+73::Maxalt::Migraine
+74::Relpax::Migraine
+75::Amerge::Migraine
+76::Axert::Migraine
+77::Butalbital Compound::Migraine
+78::Treximet::Migraine
+79::Zomig::Migraine
+80::Maxalt MLT::Migraine
+81::Excedrin Migraine::Migraine
+82::Cambia::Migraine
+83::Fiorinal::Migraine
+84::gabapentinOFF LABEL::Migraine
+85::Frova::Migraine
+86::rizatriptan::Migraine
+87::Reglan::Migraine
+88::cyclobenzaprineOFF LABEL::Migraine
+89::Excedrin::Migraine
+90::aspirin butalbital caffeine::Migraine
+91::naratriptan::Migraine
+92::NorflexOFF LABEL::Migraine
+93::Botox::Migraine
+94::MethergineOFF LABEL::Migraine
+95::Migranal::Migraine
+96::Cafergot::Migraine
+97::diclofenac::Migraine
+98::Imitrex Statdose::Migraine
+99::almotriptan::Migraine
+100::zolmitriptan::Migraine
+101::metoclopramide::Migraine
+102::naproxen sumatriptan::Migraine
+103::acetaminophen aspirin caffeine::Migraine
+104::eletriptan::Migraine
+105::Imitrex Nasal::Migraine
+106::Sumavel DosePro::Migraine
+107::cyproheptadine::Migraine
+108::dihydroergotamine::Migraine
+109::frovatriptan::Migraine
+110::Migergot::Migraine
+111::orphenadrineOFF LABEL::Migraine
+112::Zomig ZMT::Migraine
+113::acetaminophen aspirin caffeine salicylamide::Migraine
+114::Alsuma::Migraine
+115::caffeine ergotamine::Migraine
+116::ergotamine::Migraine
+117::venlafaxineOFF LABEL::Migraine
+118::AntiflexOFF LABEL::Migraine
+119::DHE 45::Migraine
+120::Farbital::Migraine
+121::NorflexOFF LABEL::Migraine
+122::onabotulinumtoxinA::Migraine
+123::Onzetra Xsail::Migraine
+124::OrfroOFF LABEL::Migraine
+125::orphenadrineOFF LABEL::Migraine
+126::OrphenateOFF LABEL::Migraine
+127::Painaid::Migraine
+128::Reglan::Migraine
+129::Relpax::Migraine
+130::rizatriptan::Migraine
+131::sumatriptan::Migraine
+132::Sumavel DosePro::Migraine
+133::Treximet::Migraine
+134::Vanquish::Migraine
+135::venlafaxineOFF LABEL::Migraine
+136::Zecuity::Migraine
+137::Zembrace SymTouch::Migraine
+138::zolmitriptan::Migraine
+139::Zomig::Migraine
+140::Zomig ZMT::Migraine
+141::Cymbalta::Depression
+142::Lexapro::Depression
+143::Zoloft::Depression
+144::Celexa::Depression
+145::Prozac::Depression
+146::Wellbutrin XL::Depression
+147::citalopram::Depression
+148::Abilify::Depression
+149::bupropion::Depression
+150::Xanax::Depression
+151::Effexor XR::Depression
+152::sertraline::Depression
+153::Wellbutrin::Depression
+154::fluoxetine::Depression
+155::Pristiq::Depression
+156::Effexor::Depression
+157::Paxil::Depression
+158::venlafaxine::Depression
+159::Wellbutrin SR::Depression
+160::trazodone::Depression
+161::Remeron::Depression
+162::Viibryd::Depression
+163::escitalopram::Depression
+164::mirtazapine::Depression
+165::paroxetine::Depression
+166::Seroquel XR::Depression
+167::amitriptyline::Depression
+168::alprazolam::Depression
+169::Deplin::Depression
+170::ZyprexaOFF LABEL::Depression
+171::duloxetine::Depression
+172::nortriptyline::Depression
+173::tramadolOFF LABEL::Depression
+174::Fetzima::Depression
+175::lamotrigineOFF LABEL::Depression
+176::Alprazolam Intensol::Depression
+177::aripiprazole::Depression
+178::Budeprion SR::Depression
+179::Budeprion XL::Depression
+180::Desyrel::Depression
+181::Niravam::Depression
+182::Oleptro::Depression
+183::quetiapine::Depression
+184::Serzone::Depression
+185::Xanax XR::Depression
+186::Aplenzin::Depression
+187::Desyrel Dividose::Depression
+188::doxepin::Depression
+189::Forfivo XL::Depression
+190::lithiumOFF LABEL::Depression
+191::olanzapineOFF LABEL::Depression
+192::Paxil CR::Depression
+193::risperidoneOFF LABEL::Depression
+194::Symbyax::Depression
+195::Asendin::Depression
+196::desipramine::Depression
+197::desvenlafaxine::Depression
+198::Emsam::Depression
+199::imipramine::Depression
+200::Irenka::Depression
+201::Methylin ER::Depression
+202::methylphenidate::Depression
+203::Nardil::Depression
+204::nefazodone::Depression
+205::Pamelor::Depression
+206::Parnate::Depression
+207::Pexeva::Depression
+208::Prozac Weekly::Depression
+209::Rapiflux::Depression
+210::Remeron SolTab::Depression
+211::Sinequan::Depression
+212::Abilify Discmelt::Depression
+213::amitriptyline chlordiazepoxide::Depression
+214::amoxapine::Depression
+215::Anafranil::Depression
+216::Ambien::Insomnia
+217::trazodoneOFF LABEL::Insomnia
+218::zolpidem::Insomnia
+219::Lunesta::Insomnia
+220::Ativan::Insomnia
+221::Dalmane::Insomnia
+222::Restoril::Insomnia
+223::Ambien CR::Insomnia
+224::temazepam::Insomnia
+225::Zyprexa ZydisOFF LABEL::Insomnia
+226::Prosom::Insomnia
+227::amitriptyline::Insomnia
+228::Halcion::Insomnia
+229::Rozerem::Insomnia
+230::Advil PM::Insomnia
+231::Belsomra::Insomnia
+232::lorazepam::Insomnia
+233::clonazepamOFF LABEL::Insomnia
+234::Silenor::Insomnia
+235::Sonata::Insomnia
+236::Intermezzo::Insomnia
+237::Unisom SleepTabs::Insomnia
+238::ZyprexaOFF LABEL::Insomnia
+239::Tylenol PM::Insomnia
+240::diphenhydramine::Insomnia
+241::doxepin::Insomnia
+242::gabapentinOFF LABEL::Insomnia
+243::eszopiclone::Insomnia
+244::mirtazapineOFF LABEL::Insomnia
+245::doxylamine::Insomnia
+246::flurazepam::Insomnia
+247::Seconal::Insomnia
+248::triazolam::Insomnia
+249::quetiapineOFF LABEL::Insomnia
+250::diphenhydramine ibuprofen::Insomnia
+251::estazolam::Insomnia
+252::olanzapineOFF LABEL::Insomnia
+253::Seconal Sodium::Insomnia
+254::zaleplon::Insomnia
+255::Doral::Insomnia
+256::Edluar::Insomnia
+257::secobarbital::Insomnia
+258::Zolpimist::Insomnia
+259::acetaminophen diphenhydramine::Insomnia
+260::chloral hydrate::Insomnia
+261::Compoz Nighttime Sleep Aid::Insomnia
+262::Nytol::Insomnia
+263::oxazepamOFF LABEL::Insomnia
+264::quazepam::Insomnia
+265::ramelteon::Insomnia
+266::Simply Sleep::Insomnia
+267::Sominex::Insomnia
+268::Unisom SleepGels::Insomnia
+269::Unisom SleepMelts::Insomnia
+270::butabarbitalOFF LABEL::Insomnia
+271::Nytol QuickCaps::Insomnia
+272::pentobarbitalOFF LABEL::Insomnia
+273::phenobarbitalOFF LABEL::Insomnia
+274::Sleepinal::Insomnia
+275::suvorexant::Insomnia
+276::Tranquil Nighttime Sleep Aid::Insomnia
+277::Twilite::Insomnia
+278::Z-Sleep::Insomnia
+279::ZzzQuil::Insomnia
+280::Aceta-Gesic::Insomnia
+281::Aldex AN::Insomnia
+282::Aldex AN Chewable::Insomnia
+283::Aleve PM::Insomnia
+284::amobarbitalOFF LABEL::Insomnia
+285::Aquachloral Supprettes::Insomnia
+286::Care One Sleep Aid::Insomnia
+287::dimenhydrinateOFF LABEL::Insomnia
+288::diphenhydramine magnesium salicylate::Insomnia
+289::diphenhydramine naproxen::Insomnia
+290::Doans PM::Insomnia
+291::Doxytex::Insomnia
+292::Equaline Sleep Aid::Insomnia
+293::Equate Sleep Aid::Insomnia
+294::Excedrin PM::Insomnia
+295::Headache Relief PM::Insomnia
+296::Hetlioz::Insomnia
+297::Ibuprofen PM::Insomnia
+298::Legatrin PM::Insomnia
+299::Mapap PM::Insomnia
+300::Medi-Sleep::Insomnia
+301::Midol PM::Insomnia
+302::Motrin PM::Insomnia
+303::Night Time Pain::Insomnia
+304::Nighttime Sleepaid::Insomnia
+305::Pain Relief PM Extra Strength::Insomnia
+306::Percogesic Extra Strength::Insomnia
+307::Sleep Aid::Insomnia
+308::tasimelteon::Insomnia
+309::Tylenol Sore Throat Nighttime::Insomnia
+310::Unisom PM Pain::Insomnia

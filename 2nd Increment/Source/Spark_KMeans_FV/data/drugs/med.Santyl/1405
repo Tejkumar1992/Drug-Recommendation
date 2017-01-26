@@ -1,0 +1,98 @@
+[RDF data]
+Cetrorelix
+Resource URI: http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugs/DB00050
+Home | All drugs
+Property	Value
+drugbank:absorption	Rapidly absorbed following subcutaneous injection. The mean absolute bioavailability following subcutaneous administration to healthy female subjects is 85%.
+drugbank:affectedOrganism	Humans and other mammals
+drugbank:ahfsCode	92:00.00
+drugbank:atcCode	H01CC02
+drugbank:biotransformation	In in vitro studies, cetrorelix was stable against phase I- and phase II-metabolism. Cetrorelix was transformed by peptidases, and the (1-4) peptide was the predominant metabolite.
+drugbank:brandName	Cetrotide
+drugbank:casRegistryNumber	<http://bio2rdf.org/cas:120287-85-6>
+drugbank:chemicalFormula	C72H96ClN17O16
+drugbank:chemicalIupacName	1-[(2S)-2-[[(2S)-2-[[(2R)-2-[[(2R)-2-[[(2R)-2-[[(2R)-2-[[(2S)-2-[[(2R)-2-acetamido-3-naphthalen-2-ylpropanoyl]amino]-3-(4-chlorophenyl)propanoyl]amino]-3-pyridin-3-ylpropanoyl]amino]-3-hydroxypropanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-5-(carbamoylamino)pentanoyl]amino]-4-methylpentanoyl]amino]-5-carbamimidamidopentanoyl]-N-[(2R)-1-amino-1-oxopropan-2-yl]pyrrolidine-2-carboxamide
+drugbank:contraindicationInsert	<http://129.128.185.122/drugbank2/drugs/DB00050/inserts/1226/full>
+drugbank:creationDate	2005-06-13 13:24:05 UTC
+drugbank:description	Cetrorelix is a man-made hormone that blocks the effects of Gonadotropin Releasing Hormone (GnRH). GnRH controls another hormone that is called luteinizing hormone (LH), which is the hormone that starts ovulation during the menstrual cycle. When undergoing hormone treatment sometimes premature ovulation can occur, leading to eggs that are not ready for fertilization to be released. Cetrorelix does not allow the premature release of these eggs to occur.
+drugbank:dosageForm	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/dosageforms/powderForSolutionSubcutaneous>
+drugbank:dpdDrugIdNumber	02247767
+drugbank:drugCategory	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugcategory/hormoneAntagonists>
+drugbank:drugCategory	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugcategory/infertilityAgents>
+drugbank:drugIdNumberPage	<http://205.193.93.51/dpdonline/searchRequest.do?din=02247767>
+drugbank:drugType	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugtype/approved>
+drugbank:drugType	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugtype/biotech>
+drugbank:drugType	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugtype/investigational>
+drugbank:fdaLabelFiles	2000-08-01	/drugs/50/fda_labels/598
+drugbank:genericName	Cetrorelix
+drugbank:halfLife	~62.8 hours
+drugbank:inchiIdentifier	InChI=1/C70H92ClN17O14.C2H4O2/c1-39(2)31-52(61(94)82-51(15-9-28-77-69(73)74)68(101)88-30-10-16-58(88)67(100)79-40(3)59(72)92)83-60(93)50(14-8-29-78-70(75)102)81-63(96)54(34-43-20-25-49(91)26-21-43)86-66(99)57(38-89)87-65(98)56(36-45-11-7-27-76-37-45)85-64(97)55(33-42-18-23-48(71)24-19-42)84-62(95)53(80-41(4)90)35-44-17-22-46-12-5-6-13-47(46)32-44;1-2(3)4/h5-7,11-13,17-27,32,37,39-40,50-58,89,91H,8-10,14-16,28-31,33-36,38H2,1-4H3,(H2,72,92)(H,79,100)(H,80,90)(H,81,96)(H,82,94)(H,83,93)(H,84,95)(H,85,97)(H,86,99)(H,87,98)(H4,73,74,77)(H3,75,78,102);1H3,(H,3,4)/t40-,50-,51+,52+,53-,54+,55-,56-,57+,58+;/m1./s1/f/h73,77-87H,72,74-75H2;3H
+drugbank:inchiKey	KFEFLCOCAHJBEA-VSMDNYHMDI
+drugbank:indication	For the inhibition of premature LH surges in women undergoing controlled ovarian stimulation
+drugbank:interactionInsert	<http://129.128.185.122/drugbank2/drugs/DB00050/inserts/2230/full>
+drugbank:keggDrugId	<http://bio2rdf.org/kegg:D01685>
+rdfs:label	Cetrorelix
+drugbank:limsDrugId	50
+drugbank:massSpecFile	0
+drugbank:mechanismOfAction	Cetrorelix binds to the gonadotropin releasing hormone receptor and acts as a potent inhibitor of gonadotropin secretion. It competes with natural GnRH for binding to membrane receptors on pituitary cells and thus controls the release of LH and FSH in a dose-dependent manner.
+drugbank:molecularWeightAverage	1491.09
+drugbank:molecularWeightMono	1489.6909
+foaf:page	<http://dbpedia.org/page/Cetrorelix>
+foaf:page	<http://en.wikipedia.org/wiki/Cetrorelix>
+foaf:page	<http://www.drugbank.ca/drugs/DB00050>
+drugbank:patientInformationInsert	http://129.128.185.122/drugbank2/drugs/DB00050/inserts/355/full
+drugbank:pharmacology	Cetrorelix is a synthetic decapeptide with gonadotropin-releasing hormone (GnRH) antagonistic activity. GnRH induces the production and release of luteinizing hormone (LH) and follicle stimulating hormone (FSH) from the gonadotrophic cells of the anterior pituitary. Due to a positive estradiol (E2) feedback at midcycle, GnRH liberation is enhanced resulting in an LH-surge. This LH-surge induces the ovulation of the dominant follicle, resumption of oocyte meiosis and subsequently luteinization as indicated by rising progesterone levels. Cetrorelix competes with natural GnRH for binding to membrane receptors on pituitary cells and thus controls the release of LH and FSH in a dose-dependent manner.
+drugbank:pharmgkbId	PA10255
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2388>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2737>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2738>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2957>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/3159>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/3636>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/3675>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/401>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/580>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/676>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/762>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/948>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/966>
+drugbank:primaryAccessionNo	DB00050
+drugbank:proteinBinding	86%
+drugbank:pubchemCompoundId	16129715
+drugbank:pubchemSubstanceId	7848748
+drugbank:reference	
+drugbank:rxlistLink	<http://www.rxlist.com/cgi/generic2/cetrorelix.htm>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/22476>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/58938>
+owl:sameAs	<http://dbpedia.org/resource/Cetrorelix>
+owl:sameAs	<http://www.dbpedia.org/resource/Cetrorelix>
+drugbank:secondaryAccessionNumber	aprd00686
+drugbank:secondaryAccessionNumber	biod00115
+drugbank:secondaryAccessionNumber	btd00115
+drugbank:smilesStringCanonical	CC(O)=O.CC(C)CC(NC(=O)C(CCCNC(N)=O)NC(=O)C(CC1=CC=C(O)C=C1)NC(=O)C(CO)NC(=O)C(CC1=CC=CN=C1)NC(=O)C(CC1=CC=C(Cl)C=C1)NC(=O)C(CC1=CC2=CC=CC=C2C=C1)NC(C)=O)C(=O)NC(CCCNC(N)=N)C(=O)N1CCCC1C(=O)NC(C)C(N)=O
+drugbank:smilesStringIsomeric	CC(O)=O.CC(C)C[C@H](NC(=O)[C@@H](CCCNC(N)=O)NC(=O)[C@H](CC1=CC=C(O)C=C1)NC(=O)[C@H](CO)NC(=O)[C@@H](CC1=CC=CN=C1)NC(=O)[C@@H](CC1=CC=C(Cl)C=C1)NC(=O)[C@@H](CC1=CC2=CC=CC=C2C=C1)NC(C)=O)C(=O)N[C@@H](CCCNC(N)=N)C(=O)N1CCC[C@H]1C(=O)N[C@H](C)C(N)=O
+drugbank:state	Solid
+drugbank:structure	1
+drugbank:synonym	Cetrorelix Acetate
+drugbank:synonym	Cetrorelixum [INN-Latin]
+drugbank:synonym	PT-141
+drugbank:synonym	SB 75
+drugbank:synonym	SB-75
+drugbank:synonym	bremelanotide
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/148>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/226>
+rdf:type	drugbank:drugs
+rdf:type	vocabClass:Offer
+drugbank:updateDate	2008-08-26 20:36:34 UTC
+The server is configured to display only a limited number of values (limit per property bridge: 50).
+
+
+
+Metadata
+<http://wifo5-04.informatik.uni-mannheim.de/drugbank/data/drugs/DB00050>  
+dc:date	2016-07-06T23:13:39.64Z
+prv:containedBy	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/dataset>
+void:inDataset	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/dataset>
+rdf:type	prv:DataItem
+rdf:type	foaf:Document
+Generated by D2R Server

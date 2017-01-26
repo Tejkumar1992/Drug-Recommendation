@@ -1,0 +1,108 @@
+[RDF data]
+Collagenase
+Resource URI: http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugs/DB00048
+Home | All drugs
+Property	Value
+drugbank:affectedOrganism	Humans and other mammals
+drugbank:ahfsCode	84:92.00
+drugbank:atcCode	D03BA03
+drugbank:brandName	Cordase
+drugbank:brandName	Santyl (Advance Biofactures Corp)
+drugbank:brandName	Xiaflextm
+drugbank:casRegistryNumber	<http://bio2rdf.org/cas:9001-12-1>
+drugbank:chemicalFormula	C5028H7666N1300O1564S21
+drugbank:chemicalIupacName	Clostridium histolyticum collagenase
+drugbank:chemicalStructure	>DB00048 sequence VQNESKRYTVSYLKTLNYYDLVDLLVKTEIENLPDLFQYSSDAKEFYGNKTRMSFIMDEI GRRAPQYTEIDHKGIPTLVEVVRAGFYLGFHNKELNEINKRSFKERVIPSILAIQKNPNF KLGTEVQDKIVSATGLLAGNETAPPEVVNNFTPILQDCIKNIDRYALDDLKSKALFNVLA APTYDITEYLRATKEKPENTPWYGKIDGFINELKKLALYGKINDNNSWIIDNGIYHIAPL GKLHSNNKIGIETLTEVMKVYPYLSMQHLQSADQIKRHYDSKDAEGNKIPLDKFKKEGKE KYCPKTYTFDDGKVIIKAGARVEEEKVKRLYWASKEVNSQFFRVYGIDKPLEEGNPDDIL TMVIYNSPEEYKLNSVLYGYDTNNGGMYIEPEGTFFTYEREAQESTYTLEELFRHEYTHY LQGRYAVPGQWGRTKLYDNDRLTWYEEGGAELFAGSTRTSGILPRKSIVSNIHNTTRNNR YKLSDTVHSKYGASFEFYNYACMFMDYMYNKDMGILNKLNDLAKNNDVDGYDNYIRDLSS NYALNDKYQDHMQERIDNYENLTVPFVADDYLVRHAYKNPNEIYSEISEVAKLKDAKSEV KKSQYFSTFTLRGSYTGGASKGKLEDQKAMNKFIDDSLKKLDTYSWSGYKTLTAYFTNYK VDSSNRVTYDVVFHGYLPNEGDSKNSLPYGKINGTYKGTEKEKIKFSSEGSFDPDGKIVS YEWDFGDGNKSNEENPEHSYDKVGTYTVKLKVTDDKGESSVSTTTAEIKDLSENKLPVIY MHVPKSGALNQKVVFYGKGTYDPDGSIAGYQWDFGDGSDFSSEQNPSHVYTKKGEYTVTL RVMDSSGQMSEKTMKIKITDPVYPIGTEKEPNNSKETASGPIVPGIPVSGTIENTSDQDY FYFDVITPGEVKIDINKLGYGGATWVVYDENNNAVSYATDDGQNLSGKFKADKPGRYYIH LYMFNGSYMPYRINIEGSVGR
+drugbank:contraindicationInsert	<http://129.128.185.122/drugbank2/drugs/DB00048/inserts/1305/full>
+drugbank:creationDate	2005-06-13 13:24:05 UTC
+drugbank:description	The enzyme collagenase is derived from fermentation of Clostridium histolyticum
+drugbank:dosageForm	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/dosageforms/ointmentTopical>
+drugbank:dpdDrugIdNumber	02063670
+drugbank:drugCategory	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugcategory/anti-ulcerAgents>
+drugbank:drugCategory	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugcategory/topical>
+drugbank:drugIdNumberPage	<http://205.193.93.51/dpdonline/searchRequest.do?din=02063670>
+drugbank:drugType	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugtype/approved>
+drugbank:drugType	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugtype/biotech>
+drugbank:drugType	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugtype/investigational>
+drugbank:experimentalLogpHydrophobicity	-0.714
+drugbank:genericName	Collagenase
+drugbank:indication	For treatment of chronic dermal ulcers and severe skin burns
+drugbank:keggCompoundId	<http://bio2rdf.org/cpd:C00816>
+rdfs:label	Collagenase
+drugbank:limsDrugId	48
+drugbank:massSpecFile	0
+drugbank:mechanismOfAction	Collagenase is a protease that is specific to collagen. The triple helical region of interstitial collagens is highly resistant to most cell proteinases. However, during remodeling of the connective tissue in such processes as wound healing and metastasis, collagen becomes susceptible to cleavage by collagenases. Collagenase cleaves all 3 alpha helical chains of native Types I, II and III collagens at a single locus by hydrolyzing the peptide bond following the Gly residue of the sequence: Gly 775-(Ile or Leu) 776-(Ala or Leu) 777 located approximately three-fourths of the chain length from each N-terminus
+drugbank:molecularWeightAverage	112023.2
+drugbank:msdsFiles	/drugs/48/safety_sheets/975
+foaf:page	<http://dbpedia.org/page/Collagenase>
+foaf:page	<http://en.wikipedia.org/wiki/Collagenase>
+foaf:page	<http://www.drugbank.ca/drugs/DB00048>
+drugbank:pharmacology	Used in the treatment of skin ulcers and sever burns, collagenase is able to digest collagen in necrotic tissue at physiological pH. Collagenase thus contributes towards the formation of granulation tissue and subsequent epithelization of dermal ulcers and severely burned areas.
+drugbank:pharmgkbId	PA449107
+drugbank:pkaIsoelectricPoint	5.58
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1066>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1096>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1182>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1217>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1306>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1449>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1709>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/183>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/19>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2183>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2238>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2242>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2243>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2245>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2246>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2859>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/3060>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/326>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/3459>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/3460>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/3461>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/3462>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/3463>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/3464>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/3473>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/3477>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/353>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/3905>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/3981>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/4156>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/648>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/717>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/876>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/877>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/881>
+drugbank:primaryAccessionNo	DB00048
+drugbank:pubchemSubstanceId	4074
+drugbank:reference	
+drugbank:rxlistLink	<http://www.rxlist.com/cgi/generic3/collagenase.htm>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/55478>
+owl:sameAs	<http://dbpedia.org/resource/Collagenase>
+drugbank:secondaryAccessionNumber	biod00010
+drugbank:secondaryAccessionNumber	btd00010
+drugbank:state	Liquid
+drugbank:structure	0
+drugbank:synonym	AA4500
+drugbank:synonym	collagenase
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/28>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/3853>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/3863>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/3864>
+rdf:type	drugbank:drugs
+rdf:type	vocabClass:Offer
+drugbank:updateDate	2008-03-19 16:46:42 UTC
+The server is configured to display only a limited number of values (limit per property bridge: 50).
+
+
+
+Metadata
+<http://wifo5-04.informatik.uni-mannheim.de/drugbank/data/drugs/DB00048>  
+dc:date	2016-07-06T23:13:38.435Z
+prv:containedBy	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/dataset>
+void:inDataset	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/dataset>
+rdf:type	prv:DataItem
+rdf:type	foaf:Document
+Generated by D2R Server

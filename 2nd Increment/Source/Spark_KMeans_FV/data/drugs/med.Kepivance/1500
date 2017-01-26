@@ -1,0 +1,138 @@
+[RDF data]
+Palifermin
+Resource URI: http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugs/DB00039
+Home | All drugs
+Property	Value
+drugbank:affectedOrganism	Humans and other mammals
+drugbank:ahfsCode	84:16.00
+drugbank:atcCode	V03AF08
+drugbank:brandName	Kepivance (Amgen Inc)
+drugbank:brandedDrug	<http://wifo5-04.informatik.uni-mannheim.de/dailymed/resource/drugs/4>
+drugbank:casRegistryNumber	<http://bio2rdf.org/cas:162394-19-6>
+drugbank:chemicalFormula	C721H1142N202O204S9
+drugbank:chemicalIupacName	Human keratinocyte growth factor
+drugbank:chemicalStructure	>DB00039 sequence YDYMEGGDIRVRRLFCRTQWYLRIDKRGKVKGTQEMKNNYNIMEIRTVAVGIVAIKGVES EFYLAMNKEGKLYAKKECNEDCNFKELILENHYNTYASAKWTHNGGEMFVALNQKGIPVR GKKTKKEQKTAHFLPMAIT
+drugbank:creationDate	2005-06-13 13:24:05 UTC
+drugbank:description	Human keratinocyte growth factor (KGF), 140 residues long, expressed in E. coli. First 23 residues removed to improve stability.
+drugbank:dosageForm	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/dosageforms/powderForSolutionIntravenous>
+drugbank:dpdDrugIdNumber	02274221
+drugbank:drugCategory	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugcategory/antimucositisAgents>
+drugbank:drugIdNumberPage	<http://205.193.93.51/dpdonline/searchRequest.do?din=02274221>
+drugbank:drugType	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugtype/approved>
+drugbank:drugType	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugtype/biotech>
+drugbank:experimentalLogpHydrophobicity	-0.650
+drugbank:fdaLabelFiles	2004-12-01	/drugs/39/fda_labels/275
+drugbank:genbankId	M60828
+drugbank:genericName	Palifermin
+drugbank:indication	For treatment of mucositis (mouth sores)
+rdfs:label	Palifermin
+drugbank:limsDrugId	39
+drugbank:massSpecFile	0
+drugbank:mechanismOfAction	Kepivance binds to the human keratinocyte growth factor (KGF) receptor found on buccal cell surfaces. The binding activates a Ras-MapK (Map kinase) signaling pathway which leads to the transcriptional activation of many proteins important for cell growth and survival.
+drugbank:molecularWeightAverage	16192.7
+foaf:page	<http://dbpedia.org/page/Palifermin>
+foaf:page	<http://en.wikipedia.org/wiki/Palifermin>
+foaf:page	<http://www.drugbank.ca/drugs/DB00039>
+drugbank:pdbExperimentalId	1QQK
+drugbank:pharmacology	Used in the prevention or treatment of oral mucoscitis (mouth ulcers arising from chemotherapy), Kepivance binds to the human keratinocyte growth factor (KGF) receptor on buccal cell surfaces. Kepivance acts as both a cell growth and survival factor by stimulating epithelial cell proliferation, differentiation, and migration around the tongue and mouth. The KGF receptor is found on many tissues particularly around the tongue, esophagus, salivary gland and other gastro-intestinal tract organs.
+drugbank:pkaIsoelectricPoint	9.47
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/100>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1014>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1027>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1126>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1159>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1217>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1308>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/143>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1449>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1469>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/151>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/157>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1586>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1600>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1608>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1709>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1717>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1819>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/183>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/189>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/1944>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2026>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2029>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2041>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2042>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/21>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/214>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2183>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2211>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2238>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2242>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2243>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2245>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2436>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/254>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/2725>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/281>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/284>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/290>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/326>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/346>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/353>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/436>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/573>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/625>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/632>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/779>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/877>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/881>
+drugbank:possibleDiseaseTarget	<http://wifo5-04.informatik.uni-mannheim.de/diseasome/resource/diseases/918>
+drugbank:primaryAccessionNo	DB00039
+drugbank:rxlistLink	<http://www.rxlist.com/cgi/generic/kepivance.htm>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/10797>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/19339>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/23958>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/24542>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/30515>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/38406>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/41755>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/50449>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/60550>
+owl:sameAs	<http://data.linkedct.org/resource/intervention/60552>
+owl:sameAs	<http://dbpedia.org/resource/Palifermin>
+owl:sameAs	<http://www.dbpedia.org/resource/Palifermin>
+drugbank:secondaryAccessionNumber	biod00042
+drugbank:secondaryAccessionNumber	btd00042
+drugbank:state	Liquid
+drugbank:structure	0
+drugbank:swissprotId	<http://bio2rdf.org/uniprot:P21781>
+drugbank:swissprotName	FGF7_HUMAN
+drugbank:swissprotPage	<http://www.uniprot.org/uniprot/P21781>
+drugbank:synonym	FGF-7
+drugbank:synonym	Fibroblast growth factor- 7
+drugbank:synonym	HBGF-7
+drugbank:synonym	KGF
+drugbank:synonym	Keratinocyte growth factor precursor
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/1585>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/2216>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/28>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/3852>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/3853>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/3854>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/3855>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/3856>
+drugbank:target	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/targets/823>
+rdf:type	drugbank:drugs
+rdf:type	vocabClass:Offer
+drugbank:updateDate	2007-10-22 02:38:43 UTC
+The server is configured to display only a limited number of values (limit per property bridge: 50).
+
+
+
+Metadata
+<http://wifo5-04.informatik.uni-mannheim.de/drugbank/data/drugs/DB00039>  
+dc:date	2016-07-06T23:13:44.867Z
+prv:containedBy	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/dataset>
+void:inDataset	<http://wifo5-04.informatik.uni-mannheim.de/drugbank/dataset>
+rdf:type	prv:DataItem
+rdf:type	foaf:Document
+Generated by D2R Server
